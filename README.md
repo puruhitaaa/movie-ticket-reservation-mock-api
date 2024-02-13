@@ -1,3 +1,6 @@
+# Public URL
+https://odd-cyan-crow-shoe.cyclic.app
+
 # Movie Ticketing System API
 
 This API provides movie, theater, showtime, and reservation data for building a movie ticketing application. It is powered by json-server for rapid prototyping and testing.
