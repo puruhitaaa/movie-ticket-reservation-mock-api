@@ -12,7 +12,6 @@
 			"poster_image_url": "https://t.ly/pGWpH"
 		},
 		{
-			"id": 2,
 			"title": "Fast X",
 			"genre": "Sci-Fi",
 			"release_date": "2020-08-29",
@@ -20,7 +19,8 @@
 			"rating": 5,
 			"age__rating": "PG-13",
 			"synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed purus euismod, faucibus orci vitae, cursus eros.",
-			"poster_image_url": "https://t.ly/z69Vx"
+			"poster_image_url": "https://t.ly/z69Vx",
+			"id": 2
 		},
 		{
 			"id": 3,
@@ -69,293 +69,256 @@
 	],
 	"theatres": [
 		{
-			"theater_id": 1,
+			"id": 1,
 			"name": "Majestic Cinema",
 			"address": "8310 Pine Avenue",
 			"city": "Riverside",
 			"state": "CA",
-			"zip_code": "92501",
-			"id": "d153"
+			"zip_code": "92501"
 		},
 		{
-			"theater_id": 2,
+			"id": 2,
 			"name": "Downtown Movies",
 			"address": "515 Elm Street",
 			"city": "St. Louis",
 			"state": "MO",
-			"zip_code": "63102",
-			"id": "7330"
+			"zip_code": "63102"
 		}
 	],
 	"auditoriums": [
 		{
-			"auditorium_id": 1,
+			"id": 1,
 			"theater_id": "1",
 			"number": 1,
-			"capacity": 187,
-			"id": "489d"
+			"capacity": 187
 		},
 		{
-			"auditorium_id": 2,
+			"id": 2,
 			"theater_id": "2",
 			"number": 2,
-			"capacity": 82,
-			"id": "749d"
+			"capacity": 82
 		}
 	],
 	"showtimes": [
 		{
-			"showtime_id": 1,
+			"id": 1,
 			"movie_id": 1,
 			"auditorium_id": 1,
 			"date": "2024-03-11",
-			"start_time": "14:15",
-			"id": "55cb"
+			"start_time": "15:30"
 		},
 		{
-			"showtime_id": 2,
+			"id": 2,
 			"movie_id": 2,
 			"auditorium_id": 1,
 			"date": "2024-03-11",
-			"start_time": "14:15",
-			"id": "fede"
+			"start_time": "17:45"
 		},
 		{
-			"showtime_id": 3,
+			"id": 3,
 			"movie_id": 3,
 			"auditorium_id": 1,
 			"date": "2024-03-11",
-			"start_time": "14:15",
-			"id": "90c0"
+			"start_time": "20:15"
 		},
 		{
-			"showtime_id": 4,
+			"id": 4,
 			"movie_id": 4,
 			"auditorium_id": 1,
 			"date": "2024-03-11",
-			"start_time": "14:15",
-			"id": "42de"
+			"start_time": "14:15"
 		},
 		{
-			"showtime_id": 5,
+			"id": 5,
 			"movie_id": 5,
 			"auditorium_id": 1,
 			"date": "2024-03-11",
-			"start_time": "14:15",
-			"id": "c780"
+			"start_time": "14:15"
 		},
 		{
-			"showtime_id": 6,
+			"id": 6,
 			"movie_id": 6,
 			"auditorium_id": 1,
 			"date": "2024-03-11",
-			"start_time": "14:15",
-			"id": "fcf9"
+			"start_time": "14:15"
 		}
 	],
 	"seats": [
 		{
-			"seat_id": 784,
+			"id": 784,
 			"auditorium_id": 1,
 			"row_label": "H",
-			"seat_number": 2,
-			"id": "17df"
+			"seat_number": 2
 		},
 		{
-			"seat_id": 954,
+			"id": 954,
 			"auditorium_id": 1,
 			"row_label": "B",
-			"seat_number": 11,
-			"id": "8589"
+			"seat_number": 11
 		},
 		{
-			"seat_id": 755,
+			"id": 755,
 			"auditorium_id": 1,
 			"row_label": "D",
-			"seat_number": 1,
-			"id": "8e1f"
+			"seat_number": 1
 		},
 		{
-			"seat_id": 325,
+			"id": 325,
 			"auditorium_id": 1,
 			"row_label": "E",
-			"seat_number": 10,
-			"id": "9a54"
+			"seat_number": 10
 		},
 		{
-			"seat_id": 279,
+			"id": 279,
 			"auditorium_id": 1,
 			"row_label": "H",
-			"seat_number": 7,
-			"id": "21f9"
+			"seat_number": 7
 		},
 		{
-			"seat_id": 744,
+			"id": 744,
 			"auditorium_id": 1,
 			"row_label": "F",
-			"seat_number": 4,
-			"id": "c845"
+			"seat_number": 4
 		},
 		{
-			"seat_id": 866,
+			"id": 866,
 			"auditorium_id": 1,
 			"row_label": "J",
-			"seat_number": 8,
-			"id": "194f"
+			"seat_number": 8
 		},
 		{
-			"seat_id": 643,
+			"id": 643,
 			"auditorium_id": 1,
 			"row_label": "G",
-			"seat_number": 5,
-			"id": "3eee"
+			"seat_number": 5
 		},
 		{
-			"seat_id": 529,
+			"id": 529,
 			"auditorium_id": 1,
 			"row_label": "I",
-			"seat_number": 1,
-			"id": "6249"
+			"seat_number": 1
 		},
 		{
-			"seat_id": 389,
+			"id": 389,
 			"auditorium_id": 1,
 			"row_label": "J",
-			"seat_number": 2,
-			"id": "7a52"
+			"seat_number": 2
 		},
 		{
-			"seat_id": 492,
+			"id": 492,
 			"auditorium_id": 1,
 			"row_label": "I",
-			"seat_number": 13,
-			"id": "db42"
+			"seat_number": 13
 		},
 		{
-			"seat_id": 900,
+			"id": 900,
 			"auditorium_id": 1,
 			"row_label": "D",
-			"seat_number": 9,
-			"id": "000c"
+			"seat_number": 9
 		},
 		{
-			"seat_id": 796,
+			"id": 796,
 			"auditorium_id": 1,
 			"row_label": "A",
-			"seat_number": 12,
-			"id": "38e2"
+			"seat_number": 12
 		},
 		{
-			"seat_id": 964,
+			"id": 964,
 			"auditorium_id": 1,
 			"row_label": "I",
-			"seat_number": 7,
-			"id": "7c23"
+			"seat_number": 7
 		},
 		{
-			"seat_id": 262,
+			"id": 262,
 			"auditorium_id": 1,
 			"row_label": "J",
-			"seat_number": 5,
-			"id": "e2c8"
+			"seat_number": 5
 		},
 		{
-			"seat_id": 908,
+			"id": 908,
 			"auditorium_id": 1,
 			"row_label": "F",
-			"seat_number": 6,
-			"id": "66ee"
+			"seat_number": 6
 		},
 		{
-			"seat_id": 382,
+			"id": 382,
 			"auditorium_id": 1,
 			"row_label": "B",
-			"seat_number": 4,
-			"id": "0d09"
+			"seat_number": 4
 		},
 		{
-			"seat_id": 233,
+			"id": 233,
 			"auditorium_id": 1,
 			"row_label": "H",
-			"seat_number": 10,
-			"id": "efdc"
+			"seat_number": 10
 		},
 		{
-			"seat_id": 757,
+			"id": 757,
 			"auditorium_id": 1,
 			"row_label": "E",
-			"seat_number": 4,
-			"id": "d43c"
+			"seat_number": 4
 		},
 		{
-			"seat_id": 531,
+			"id": 531,
 			"auditorium_id": 1,
 			"row_label": "I",
-			"seat_number": 6,
-			"id": "94b7"
+			"seat_number": 6
 		}
 	],
 	"users": [
 		{
-			"user_id": 1,
+			"id": 1,
 			"name": "Timothy Walker",
 			"email": "timothy.walker22@example.com",
-			"password": "",
-			"id": "21f6"
+			"password": ""
 		},
 		{
-			"user_id": 2,
+			"id": 2,
 			"name": "Ashley Rodriguez",
 			"email": "ashley45@example.net",
-			"password": "",
-			"id": "41bf"
+			"password": ""
 		}
 	],
 	"reservations": [
 		{
-			"reservation_id": 1,
+			"id": 1,
 			"user_id": 2,
 			"showtime_id": 5,
 			"seat_id": 18,
 			"reservation_date": "2024-02-16",
-			"price": 12.99,
-			"id": "a7e5"
+			"price": 12.99
 		},
 		{
-			"reservation_id": 2,
+			"id": 2,
 			"user_id": 1,
 			"showtime_id": 2,
 			"seat_id": 3,
 			"reservation_date": "2024-02-15",
-			"price": 10,
-			"id": "8665"
+			"price": 10
 		},
 		{
-			"reservation_id": 3,
+			"id": 3,
 			"user_id": 3,
 			"showtime_id": 5,
 			"seat_id": 19,
 			"reservation_date": "2024-02-16",
-			"price": 12.99,
-			"id": "5fae"
+			"price": 12.99
 		},
 		{
-			"reservation_id": 4,
+			"id": 4,
 			"user_id": 1,
 			"showtime_id": 3,
 			"seat_id": 25,
 			"reservation_date": "2024-02-17",
-			"price": 15,
-			"id": "c7ce"
+			"price": 15
 		},
 		{
-			"reservation_id": 5,
+			"id": 5,
 			"user_id": 4,
 			"showtime_id": 1,
 			"seat_id": 11,
 			"reservation_date": "2024-02-14",
-			"price": 10,
-			"id": "3587"
+			"price": 10
 		}
 	]
 }
